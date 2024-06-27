@@ -2,7 +2,7 @@
 
 Neste repositório, utilizamos uma base de dados real da Fórmula 1, obtida da fonte [Ergast API](https://ergast.com/api/f1?limit=30&offset=60), que registra detalhes históricos sobre as corridas, pilotos e equipes. A base de dados é composta por dois arquivos principais: `results.csv` e `drivers.csv`. O arquivo `results.csv` foi processado e convertido em `results_limpa.csv` para corrigir problemas de dados e facilitar a análise.
 
-A base de dados contém informações abrangentes sobre diversas corridas ao longo dos anos, fornecendo atributos como identificadores de corrida, identificadores de pilotos, posições de largada e chegada, pontuações, tempos de volta mais rápidos, entre outros. Com mais de 26000 linhas de dados e uma mistura de atributos numéricos e categóricos, essa base de dados oferece uma complexidade significativa, ideal para análises exploratórias e aplicação de técnicas de machine learning.
+A base de dados contém informações abrangentes sobre diversas corridas ao longo dos anos, fornecendo atributos como identificadores de corrida, identificadores de pilotos, posições de largada e chegada, pontuações, tempos de volta mais rápidos, entre outros. Com mais de 500 linhas de dados e uma mistura de atributos numéricos e categóricos, essa base de dados oferece uma complexidade significativa, ideal para análises exploratórias e aplicação de técnicas de machine learning.
 
 ## Objetivo
 
@@ -40,7 +40,7 @@ Realizar uma análise detalhada da base de dados e aplicar técnicas de machine 
 - **datasets/results_limpa.csv**: Dados processados para análise.
 
 ### 2. Notebooks
-- **Análise de Dados F1.ipynb**: Notebook principal contendo a análise exploratória dos dados, incluindo visualizações de tendências ao longo dos anos, desempenho de equipes e pilotos, e insights sobre as corridas.
+- **Análise de Dados F1.ipynb**: Notebook principal contendo a análise exploratória dos dados, incluindo visualizações de tendências ao longo dos anos, desempenho de equipes e pilotos, e insights sobre as corridas. Este notebook foi desenvolvido para rodar no Google Colab.
 
 ### 3. Scripts
 - **scripts/limpeza_dados.py**: Scripts para limpeza e pré-processamento dos dados.
@@ -63,11 +63,10 @@ Realizar uma análise detalhada da base de dados e aplicar técnicas de machine 
    - `results.csv`
    - `drivers.csv`
    - `results_limpa.csv`
-5. Execute o notebook principal: `jupyter notebook "Análise de Dados F1.ipynb"`
+5. Abra e execute o notebook no Jupyter Colab: `jupyter notebook "Análise de Dados F1.ipynb"`
 
 ## Contribuições
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues para relatar bugs ou sugerir melhorias. Para contribuir com código, faça um fork do repositório e envie um pull request com suas alterações.
-
 ---
 
-Com este repositório, esperamo fornecer ferramentas e insights valiosos para entusiastas e analistas de dados interessados no fascinante mundo da Fórmula 1.
+Com este repositório, esperamos fornecer ferramentas e insights valiosos para entusiastas e analistas de dados interessados no fascinante mundo da Fórmula 1.
